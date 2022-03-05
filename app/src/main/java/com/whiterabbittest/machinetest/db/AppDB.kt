@@ -8,7 +8,7 @@ import com.whiterabbittest.machinetest.localdb.UserInfoTable
 import com.whiterabbittest.machinetest.localdb.UserInfoTableDao
 
 
-@Database(entities = arrayOf(UserInfoTable::class),version = 3, exportSchema = false)
+@Database(entities = arrayOf(UserInfoTable::class),version = 4, exportSchema = false)
 abstract  class AppDB: RoomDatabase() {
 
     abstract fun userInfoTable() : UserInfoTableDao

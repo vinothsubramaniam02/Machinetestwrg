@@ -22,6 +22,6 @@ data class UserInfoTable(
     @ColumnInfo(name = "phone") val phone: String?,
     @ColumnInfo(name = "website") val website: String?,
     @ColumnInfo(name = "company_name") val company_name: String?,
-    @ColumnInfo(name = "company_catchPhrase") val String: String?,
+    @ColumnInfo(name = "company_catchPhrase") val company_catchPhrase: String?,
     @ColumnInfo(name = "bs") val bs: String?
 )

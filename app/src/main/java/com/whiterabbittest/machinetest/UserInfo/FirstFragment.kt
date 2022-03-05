@@ -111,29 +111,33 @@ class FirstFragment : Fragment(), LifecycleObserver,ShowUserDetails {
 
                     db = AppDB.getDatabaseClient(requireContext())
 
+if(it.company!=null)
+{
+    val itemCount =
+        UserInfoTable(
+            0,
+            it.id.toString(),
+            it.name,
+            it.username,
+            it.email,
+            it.profile_image,
+            it.address.street,
+            it.address.suite,
+            it.address.city,
+            it.address.zipcode,
+            it.address.geo.lat,
+            it.address.geo.lng,
+            it.phone,
+            it.website,
+            it.company.name,
+            it.company.catchPhrase,
+            it.company.bs
 
-                    val itemCount =
-                        UserInfoTable(
-                            0,
-                            it.id.toString(),
-                            it.name,
-                            it.username,
-                            it.email,
-                            it.profile_image,
-                            it.address.street,
-                            it.address.suite,
-                            it.address.city,
-                            it.address.zipcode,
-                            it.address.geo.lat,
-                            it.address.geo.lng,
-                            it.phone,
-                            it.website,
-                            "Testcompany",
-                            "Testcompany",
-                            "Testcompany"
 
-                        )
-                    db!!.userInfoTable().insertAll(itemCount)
+        )
+    db!!.userInfoTable().insertAll(itemCount)
+}
+
                 }
             }
             showUserDetails()
