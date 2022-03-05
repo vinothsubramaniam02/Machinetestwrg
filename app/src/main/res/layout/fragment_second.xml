@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+  <androidx.appcompat.widget.LinearLayoutCompat
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_margin="20dp"
+      android:layout_marginTop="@dimen/size_20"
+      android:orientation="vertical">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          >
+
+          <ImageView
+              android:id="@+id/profile_image_employee"
+              android:layout_width="100dp"
+              android:layout_height="100dp"
+              android:layout_centerInParent="true"
+              android:src="@drawable/ic_launcher_background" />
+
+      </RelativeLayout>
+
+
+      <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/name"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:layout_marginTop="5dp"
+
+         />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:layout_marginTop="3dp"
+          android:background="#bcbcbc"
+
+          />
+
+      <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/user_name"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:layout_marginTop="5dp"
+
+          />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:layout_marginTop="3dp"
+          android:background="#bcbcbc"
+
+          />
+
+      <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/email_id"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:layout_marginTop="5dp"
+
+
+          />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:layout_marginTop="3dp"
+          android:background="#bcbcbc"
+
+          />
+
+      <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/street"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:layout_marginTop="5dp"
+
+          />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:layout_marginTop="3dp"
+          android:background="#bcbcbc"
+
+          />
+
+      <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/suite"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:layout_marginTop="5dp"
+
+          />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:layout_marginTop="3dp"
+          android:background="#bcbcbc"
+
+          />
+
+      <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/city"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:layout_marginTop="5dp"
+
+          />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:layout_marginTop="3dp"
+          android:background="#bcbcbc"
+
+          />
+
+
+      <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/zipcode"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:layout_marginTop="5dp"
+
+          />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:layout_marginTop="3dp"
+          android:background="#bcbcbc"
+
+          />
+
+      <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/phone"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:layout_marginTop="5dp"
+
+          />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:layout_marginTop="3dp"
+          android:background="#bcbcbc"
+
+          />
+
+      <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/website"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:layout_marginTop="5dp"
+
+          />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:layout_marginTop="3dp"
+          android:background="#bcbcbc"
+
+          />
+  </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.core.widget.NestedScrollView>
